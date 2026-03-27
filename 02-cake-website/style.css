@@ -1,0 +1,41 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+/* the <li> with id "bestseller" */
+li#bestseller {
+    background-color: orange;
+}
+
+#top {
+    background-color:bisque;
+}
+
+#top {
+    text-decoration: underline;
+}
+
+/* Find all <li> with the "important" class */
+li.important {
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.important {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* descendant selector: find all the descedant elements */
+#reviews li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* direct descendant selector: only the immediate child be targted for styling */
+#footer > a {
+    background-color: orange;
+}
+
+.recommended {
+    color: red;
+}
